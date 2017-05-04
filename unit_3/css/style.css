@@ -4,44 +4,7 @@
 }
 
 
-body {
-	text-align:center;
-	background-color: #FFDAC1;
-}
-
-
-h1 {
-	font-family: Arial, sans-serif;
-	font-size: 40px;
-	font-weight: normal;
-	color: #8C827A;
+img{
+    width: 300px;
+    height: auto;
 	}
-
-nav {font-family: Arial, sans-serif;
-	font-size: 20px;
-	color: #8C827A;
-	}
-
-h2 {
-	font-size: 20px;
-	font-family: Arial;
-}
-
-
-p {
-	font-family: Arial, monospace;
-	font-size: 14px;
-	font-weight:bold;
-	color: #292624;
-
-	}
-
-
-ul{font-size: 15px;
-	font-family: Arial;
-
-}
-
-li
-img
-#slogan
