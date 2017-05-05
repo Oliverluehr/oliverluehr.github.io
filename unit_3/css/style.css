@@ -1,10 +1,31 @@
-{
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand');
+
+
+*{
 	padding: 0;
 	margin: 0;
 }
 
 
+body{
+	border-color: 
+	font-size: 16px;/*1em=16px*/
+	background-color: red;
+}
+
 img{
     width: 300px;
     height: auto;
 	}
+
+h1,h2{
+	font-family:'Playfair Display',serif 
+}
+
+a{
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+
