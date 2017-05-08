@@ -1,10 +1,90 @@
-{
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand');
+
+
+*{
 	padding: 0;
 	margin: 0;
 }
 
+body{
+	font-size: 16px;/*1em=16px*/
+}
+
+h1,h2{
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+	color: black;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding: 20px;
+	text-decoration: none;
+	border: none;
+	margin: 2em;
+
+}
 
 img{
     width: 300px;
     height: auto;
 	}
+
+h1{
+	font-family:'Playfair Display',serif; 
+	font-size:3em;
+	margin: 1em;
+	}
+h2{
+	font-family:'Playfair Display',serif; 
+	font-size:2em;
+}
+
+a{
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;
+	color: black;
+	margin: 1em;
+	font-weight: 600
+}
+
+p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	width: 20em;
+	line-height: 1.5em;
+}
+
+hr{
+	border:none;
+	height:3px;
+	background-color: black;
+	width:10em;
+	margin:1em auto;
+}
+
+.title{
+	font-family:'Playfair Display',serif; 
+	font-size:10em
+	text-transform:uppercase;
+
+}
+
+#Landingpage {
+	background-image: url("../images/Farmhouse_living.jpg");
+	height:700px;
+	padding:20px;
+}
+
+.gallerypics{
+	width: 150px;
+    height: auto;
+    margin: 20px;
+}
+
+
