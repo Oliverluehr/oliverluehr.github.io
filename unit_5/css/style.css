@@ -68,12 +68,16 @@ hr{
 
 .title{
 	font-family:'Playfair Display',serif; 
-	font-size:10em;
+	font-size:2em;
 	text-transform:uppercase;
 }
 
 #Landingpage {
 	background-image: url("../images/Farmhouse_living.jpg");
+}
+
+#Landingpage-button{
+	text-align: center;
 }
 
 .gallerypics{
@@ -87,3 +91,54 @@ section {
 	padding: 5em 0;
 }
 
+header{
+	background-color:#FFED74;
+	}
+
+footer{
+	background-color: #FF957E;
+}
+
+#Chapters{
+	background-color:#E8C66A;
+}
+
+.wrapper{
+	background-color:#FFE2B2;
+}
+
+#projects{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+.homegallery{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+#passion{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+#ochres-approach{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+#all-about-ochre{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+#projects-in-detail{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
