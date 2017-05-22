@@ -10,6 +10,12 @@ body{
 	font-size: 16px;/*1em=16px*/
 }
 
+header{
+	background-color:#FFED74;
+	position: fixed;
+	height: 160px;
+	}
+
 h1,h2{
 	text-align: center;
 }
@@ -96,22 +102,15 @@ section {
 	padding: 5em 0;
 }
 
-header{
-	background-color:#FFED74;
-	Hi
-	}
-
 footer{
 	background-color: #FF957E;
 }
-
-
-
 
 #projects{
 	background-color: #FFE2B8;
 	border: 1px black solid;
     padding: 20px;
+    display: block;
 }
 
 .homegallery{
@@ -144,10 +143,11 @@ footer{
     padding: 20px;
 }
 
-#two_column{
+#all_about_ochre{
 	background-color:#FFB7CF;
 	border: 1px black solid;
 	padding: 20px;
+	margin: 200px;
 }
 
 #left {
