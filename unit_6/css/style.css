@@ -5,6 +5,7 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
 body{
 	font-size: 16px;/*1em=16px*/
 }
@@ -25,7 +26,10 @@ nav {
 	text-decoration: none;
 	border: none;
 	margin: 2em;
+}
 
+a:hover{
+	background-color:#aaaaaa; 
 }
 
 img{
@@ -101,13 +105,8 @@ footer{
 	background-color: #FF957E;
 }
 
-#Chapters{
-	background-color:#E8C66A;
-}
 
-.wrapper{
-	background-color:#FFE2B2;
-}
+
 
 #projects{
 	background-color: #FFE2B8;
@@ -144,3 +143,33 @@ footer{
 	border: 1px black solid;
     padding: 20px;
 }
+
+#two_column{
+	background-color:#FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color:violet;
+	border: 1px black solid;
+	padding: 20px;
+	float:left;
+	width: 30%;
+}
+
+#right{
+	background-color:pink;
+	border: 1px black solid;
+	padding: 20px;
+	float:right;
+	width:62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
