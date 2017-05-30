@@ -73,14 +73,6 @@ p{
 	line-height: 1.5em;
 }
 
-
-
-.title{
-	font-family:'Playfair Display',serif; 
-	font-size:2em;
-	text-transform:uppercase;
-}
-
 .homegallery{
     padding: 20px;
    	padding-top: 200px;
@@ -108,18 +100,17 @@ p{
 }
 
 #all_about_ochre{
-	float: right;
+	float: left;
 	margin-top: 100px;
 }
 
 #design_services{
-	float: right;
 }
 
 .clearfix:after{
   	visibility: hidden;
-    display: block;
     font-size: 0;
     height: 0;
-    content:"HELLO";
+    content:" ";
+    display: block;
     clear: both;
