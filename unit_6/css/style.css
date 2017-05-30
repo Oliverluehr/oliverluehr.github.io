@@ -11,13 +11,28 @@ body{
 }
 
 header{
-	background-color:#FFED74;
+	background-color:white;
 	position: fixed;
-	height: 160px;
+	height: 135px;
+	width: 100%;
 	}
 
 h1,h2{
 	text-align: center;
+}
+
+h1{
+	font-family:'Playfair Display',serif; 
+	font-size:4em;
+	margin: 14px;
+	border:none;
+}
+
+h2{
+	font-family:'Playfair Display',serif; 
+	font-size:2em;
+	margin: 14px;
+	border:none;
 }
 
 nav {
@@ -28,7 +43,7 @@ nav {
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 2px;
-	padding: 20px;
+	padding: 0px;
 	text-decoration: none;
 	border: none;
 	margin: 2em;
@@ -42,17 +57,6 @@ img{
     width: 300px;
     height: auto;
 	}
-
-h1{
-	font-family:'Playfair Display',serif; 
-	font-size:4em;
-	margin: 14px;
-}
-
-h2{
-	font-family:'Playfair Display',serif; 
-	font-size:2em;
-}
 
 a{
 	font-family: 'Quicksand', sans-serif;
@@ -69,13 +73,7 @@ p{
 	line-height: 1.5em;
 }
 
-hr{
-	border:none;
-	height:3px;
-	background-color: black;
-	width:10em;
-	margin:1em auto;
-}
+
 
 .title{
 	font-family:'Playfair Display',serif; 
@@ -83,93 +81,45 @@ hr{
 	text-transform:uppercase;
 }
 
-#Landingpage {
-	background-image: url("../images/Farmhouse_living.jpg");
-}
-
-#Landingpage-button{
-	text-align: center;
+.homegallery{
+    padding: 20px;
+   	padding-top: 200px;
+   	padding-left: 10%;
+   	padding-bottom: 100px;
+   	float:right;
 }
 
 .gallerypics{
-	width: 150px;
+	width: 10%;
 	height: auto;
-	margin: 20px;
-}
-section {
-	/* height:100vh; */
-	border: 1px solid;
-	padding: 5em 0;
-}
-
-footer{
-	background-color: #FF957E;
+	margin: 30px;
 }
 
 #projects{
-	background-color: #FFE2B8;
-	border: 1px black solid;
-    padding: 20px;
-    display: block;
+	padding-left: 15%;
+	padding-top: 20px;
+	float:right;
 }
 
-.homegallery{
-	background-color: #FFE2B8;
-	border: 1px black solid;
-    padding: 20px;
-}
-
-#passion{
-	background-color: #FFE2B8;
-	border: 1px black solid;
-    padding: 20px;
-}
-
-#ochres-approach{
-	background-color: #FFE2B8;
-	border: 1px black solid;
-    padding: 20px;
-}
-
-#all-about-ochre{
-	background-color: #FFE2B8;
-	border: 1px black solid;
-    padding: 20px;
-}
-
-#projects-in-detail{
-	background-color: #FFE2B8;
-	border: 1px black solid;
-    padding: 20px;
+.projectpics{
+	width: 20%;
+	height: auto;
+	margin: 20px;
 }
 
 #all_about_ochre{
-	background-color:#FFB7CF;
-	border: 1px black solid;
-	padding: 20px;
-	margin: 200px;
+	float: right;
+	margin-top: 100px;
 }
 
-#left {
-	background-color:violet;
-	border: 1px black solid;
-	padding: 20px;
-	float:left;
-	width: 30%;
+#design_services{
+	float: right;
 }
 
-#right{
-	background-color:pink;
-	border: 1px black solid;
-	padding: 20px;
-	float:right;
-	width:62%;
-}
-
-.clearfix:after {
-    visibility: hidden;
+.clearfix:after{
+  	visibility: hidden;
     display: block;
     font-size: 0;
-    content: " ";
-    clear: both;
     height: 0;
+    content:"HELLO";
+    clear: both;
