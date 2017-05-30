@@ -32,6 +32,7 @@ h2{
 	font-family:'Playfair Display',serif; 
 	font-size:2em;
 	margin: 14px;
+	margin-bottom: 50px;
 	border:none;
 }
 
@@ -53,10 +54,6 @@ a:hover{
 	background-color:#aaaaaa; 
 }
 
-img{
-    width: 300px;
-    height: auto;
-	}
 
 a{
 	font-family: 'Quicksand', sans-serif;
@@ -104,8 +101,57 @@ p{
 	margin-top: 100px;
 }
 
+.about_pics_right{
+	width: 35%;
+	height: auto;
+	margin: 1em;
+}
+.about_pics_left{
+	width: 35%;
+	height: auto;
+	margin-left: 10%;
+	margin-right: 0%;
+	margin-top: 0;
+	float: left;
+}
+#about_text_right{
+	width: 35%;
+	margin-top: 0;
+	margin-bottom:100px;
+	margin-left: 0%;
+	margin-right: 10%;
+	float: right;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+	width: 20em;
+	line-height: 1.5em;
+}
+.about_text_left{
+	width: 35%;
+	margin-top: 0;
+	margin-bottom:100px;
+	margin-left: 10%;
+	margin-right: 0%;
+	float: left;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+	width: 20em;
+	line-height: 1.5em;
+}
 #design_services{
 }
+
+.service_pics{
+	width: 15%;
+	height: auto;
+
+}
+
+.detail_pics{
+	width: 40%;
+	height: auto
+}
+
 
 .clearfix:after{
   	visibility: hidden;
