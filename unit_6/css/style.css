@@ -33,7 +33,7 @@ h1{
 h2{
 	font-family:'Playfair Display',serif;
 	font-size:2em;
-	/* margin: 14px; */
+	margin-top: 5em;
 	margin-bottom: 50px;
 	border:none;
 }
@@ -69,7 +69,10 @@ p{
 	line-height: 1.5em;
 }
 
-.homegallery{padding-top: 15em;}
+.homegallery{
+	padding-top: 15em;
+	margin-bottom: 20em;
+}
 
 .gallerypics{
 	width: 25%;
@@ -78,27 +81,27 @@ p{
 	padding: 1em;
 }
 
-#projects{
-}
-
 #projects a{
 	width: 33.33%;
 	height: auto;
 	float: left;
+	margin-top: 2em;
+
 }
 .projectpics {
 	width:100%;
 }
 #all_about_ochre{
+	margin:none;
 }
 
 .about_pics_right{
-	width: 35%;
+	width: 50%;
 	height: auto;
-	margin: 1em;
+	margin: 0em;
 }
 .about_pics_left{
-	width: 35%;
+	width: 50%;
 	height: auto;
 	margin-left: 10%;
 	margin-right: 0%;
