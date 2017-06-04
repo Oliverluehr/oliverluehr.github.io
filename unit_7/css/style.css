@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 16px;/*1em=16px*/
+	color: #333;
+}
+
+header{
+	background-color:white;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 1em 0;
+	}
+
+h1,h2{
+	text-align: center;
+}
+
+h1{
+	font-family:'Playfair Display',serif;
+	font-size:4em;
+	line-height: 1;
+}
+
+h2{
+	font-family:'Playfair Display',serif;
+	font-size:2em;
+	margin-top: 3em;
+	margin-bottom: 50px;
+	border:none;
+}
+
+nav {
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-top: .5em;
+}
+
+a:hover{
+	background-color:#aaaaaa; 
+}
+
+
+
+a{
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;
+	color: inherit;
+	padding: 1em;
+	font-weight: 600;
+	display: inline-block;
+}
+
+p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+.homegallery{
+	padding-top: 15em;
+	margin-bottom: 20em;
+}
+
+.gallerypics{
+	width: 25%;
+	height: auto;
+	float: left;
+	padding: 1em;
+}
+
+#projects a{
+	width: 33.33%;
+	height: auto;
+	float: left;
+	margin-top: 2em;
+
+}
+.projectpics {
+	width:100%;
+}
+#all_about_ochre{
+	margin:none;
+}
+
+.about_pics_left{
+	width: 45%;
+	height: auto;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 0;
+	float: left;
+}
+#about_text_right{
+	width: 45%;
+	margin-top: 0;
+	margin-bottom:0px;
+	margin-left:5%;
+	margin-right:5%;
+	float: right;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.about_text_left{
+	width: 45%;
+	margin-top:2em;
+	margin-bottom:10px;
+	margin-left: 0%;
+	margin-right: 0%;
+	float: left;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.about_pics_right{
+	width: 45%;
+	height: auto;
+	margin-top:2em;
+	margin-left: 5%;
+}
+
+#service_pics_left{
+	width: 20%;
+	height: auto;
+	float:left;
+	margin-right: 2.5%;
+
+}
+
+#service_text{
+	width: 10%
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.service_pics_right{
+	width: 20%;
+	height: auto; 
+	float:right;
+	margin-left: 2.5%;
+}
+
+#Contact{
+	margin-bottom: 3em;
+}
+
+.wrapper {
+    max-width: 75em;
+    margin: auto;
+}
+.clearfix:after{
+  	visibility: hidden;
+    font-size: 0;
+    height: 0;
+    content:" ";
+    display: block;
+    clear: both;
