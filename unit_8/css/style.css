@@ -170,3 +170,61 @@ p{
     content:" ";
     display: block;
     clear: both;
+}
+
+ @media screen and (max-width: 840px){
+ }
+
+ @media screen and (max-width: 620px){
+ 	/*move to back*/
+ 	.homegallery{
+	padding-top: 15em;
+	margin-bottom: 20em;
+	}
+	.gallerypics{
+	width: 50%;
+	height: auto;
+	float: none;
+	padding: 1em;
+	}	
+ }
+
+@media screen and (max-width: 320px){
+	/*drop down menue*/
+	nav {
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-top: .5em;
+	display:block;
+	}
+	/*move to back or hide completele*/
+ 	.homegallery{
+	display: hide;
+	}
+	.gallerypics{
+	width: 50%;
+	height: auto;
+	float: none;
+	padding: 1em;
+	}
+	/*move to front and have two columns*/
+	#projects a{
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-top: 1em;
+	}
+	.projectpics {
+	width:50%;
+ }
+
+
+
+
+
+
+
+
