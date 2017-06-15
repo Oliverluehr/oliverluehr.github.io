@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 16px;/*1em=16px*/
+	color: #333;
+}
+
+header{
+	background-color:white;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 1em 0;
+	}
+
+h1,h2{
+	text-align: center;
+}
+
+h1{
+	font-family:'Playfair Display',serif;
+	font-size:4em;
+	line-height: 1;
+}
+
+h2{
+	font-family: 'Playfair Display',serif;
+    font-size: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border: none;
+}
+
+nav {
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-top: .5em;
+}
+
+a:hover{
+	background-color:#e0b79b; 
+}
+
+
+
+nav a{
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;
+	color: inherit;
+	padding: 1em;
+	font-weight: 600;
+	display: inline-block;
+}
+
+p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+.homegallery{
+	padding-top: 17em;
+	margin-bottom: 0em;
+}
+
+.gallerypics{
+	width: 25%;
+	height: auto;
+	float: left;
+	padding: 1em;
+}
+
+#projects{
+	margin-top:2em;
+}
+
+.projectpics {
+	width: 30%;
+	height: auto;
+	float: left;
+	margin-top: 2em;
+	margin-left: 2.5%;
+}
+
+.all_about_ochre{
+	margin: 1em;
+	margin-left: 2em
+	margin-top: 4em;
+}
+
+.about_pics_left{
+	width: 50%;
+	height: auto;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 0;
+	float: left;
+}
+#about_text_right{
+	width: 45%;
+	margin-top: 0;
+	margin-bottom:0px;
+	margin-left:1%;
+	float: right;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.about_pics_right{
+	width: 45%;
+	height: auto;
+	margin-top:2em;
+	margin-left: 5%;
+}
+
+#service_pics_left{
+	width: 20%;
+	height: auto;
+	float:left;
+	margin-right: 2.5%;
+
+}
+
+#service_text{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	padding: .25em;
+}
+.service_pics_right{
+	width: 20%;
+	height: auto; 
+	float:right;
+	margin-left: 2.5%;
+}
+
+#Contact{
+	margin-bottom: 3em;
+}
+
+#contact_text_right{
+	width: 50%;
+	margin-top: 0;
+	margin-bottom:2em;
+	margin-left:2%;
+	margin-right:0%;
+	float: left;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.get_in_touch_pic{
+	width: 30%;
+	height: auto;
+	margin-left: 10%;
+	margin-right: 0%;
+	margin-top: 0;
+	float: left;
+}
+
+#contact_text_right_adress{
+	width: 20%;
+	margin-top: 0;
+	margin-bottom:2em;
+	margin-left:2%;
+	margin-right:0%;
+	float: left;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.wrapper {
+    max-width: 75em;
+    margin: auto;
+}
+
+.clearfix:after{
+  	visibility: hidden;
+    font-size: 0;
+    height: 0;
+    content:" ";
+    display: block;
+    clear: both;
+}
+
+label{
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-top: .5em;
+	display:none;
+}
+
+#toggle{
+	display: none;
+}
+
+@media only screen and (max-width:1200px) {
+	.wrapper { padding:0 2em; }
+}
+
+@media only screen and (max-width: 855px){
+	body{
+	font-size: 12px;/*1em=16px*/
+	color: #333;
+	}
+	#service_text {
+		clear:both;
+	}
+	#service_pics_left, .service_pics_right {
+		width:33.33%;
+		float:left;
+		margin:0;
+		padding:.5em;
+	}
+	nav a {
+		display:block;
+	}
+	h2{
+	font-family: 'Playfair Display',serif;
+    font-size: 2em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border: none;
+}
+	.homegallery{
+		padding-top: 22em;
+		margin-bottom: 2em;
+	}
+	.about_pics_left{
+		width: 80%;
+		height: auto;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-bottom: 0em;
+		display: block;
+	}
+	#about_text_right{
+		width: 80%;
+		margin-top: 1em;
+		margin-bottom:0px;
+		margin-left:10%;
+		margin-right:10%;
+		display: block;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 1.25em;
+		line-height: 1.5em;
+}
+	.about_text_left{
+		width: 80%;
+		margin-top: 0;
+		padding-bottom:1em;
+		margin-left:10%;
+		margin-right:10%;
+		display: block;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 1.25em;
+		line-height: 1.5em;
+}
+
+	.about_pics_right{
+		width: 80%;
+		height: auto;
+		margin-left: 10%;
+		margin-right: 10%;
+		padding-top: 0em;
+		margin-bottom: 0em;
+		display: block;
+	
+	}
+	.about_pics_right{
+		width: 80%;
+		height: auto;
+		margin-top: 0em;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-bottom: 0em;
+		display: block;
+	
+}
+
+#service_pics_left{
+	display: none;
+	height: 10em;
+	width:10%;
+	height: auto;
+	float:left;
+	margin-right: 5%;
+
+}
+
+.service_pics_right{
+	display: none;
+	height: 10em;
+	width:10%;
+	height: auto;
+	float:left;
+	margin-right: 2.5%;
+}
+
+#service_text{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.25em;
+	line-height: 1.5em;
+	padding: .25em;
+	}
+}
+
+@media only screen and (max-width: 720px){
+	.homegallery{
+		padding-top: 25em;
+		margin-bottom: 2em;
+	}	
+
+	.gallerypics{
+	width: 30%;
+	margin: 1.5%;
+	height: auto;
+	float: left;
+	padding: 0em;
+	}
+
+	.projectpics {
+	width: 45%;
+	height: auto;
+	float: left;
+	margin-top: 2em;
+	margin-left: 2.5%;
+}
+}
+
+@media only screen and (max-width: 620px){
+ 	/*hide gallery*/
+ 	/*create MENU-dropdown*/
+ 
+ 	.homegallery{
+ 	padding-top: 8em;
+	}
+
+	label{
+		display: block;
+	}
+	#toggle:checked + nav{
+		display: block;
+	}
+	nav{
+ 		display: none;
+ 	}
+}
+
+
+
+
+
+
+
+
+
+
